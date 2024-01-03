@@ -55,3 +55,6 @@ TL
     yoyo:"true",
     repeat:-1
 })
+
+
+let score = 100;
