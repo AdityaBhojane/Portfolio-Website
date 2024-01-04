@@ -34,27 +34,26 @@ TL
     opacity:0,
     y:30,
     duration:0.5,
+    delay:"-0.5"
 })
 .from("#social",{
     opacity:0,
-    x:-1000,
+    x:-100,
     duration:0.5,
+    delay:"-0.2"
 })
 .from("#portrait",{
     opacity:0,
     x:20,
     duration:2,
-    delay:"-2"
+    delay:"-1"
 })
 .from("#arrow",{
     scale:0.1,
-    duration:1
+    duration:0.5
 })
 .to("#arrow",{
     y:20,
     yoyo:"true",
     repeat:-1
 })
-
-
-let score = 100;
