@@ -42,12 +42,6 @@ TL
     duration:0.5,
     delay:"-0.2"
 })
-.from("#portrait",{
-    opacity:0,
-    x:20,
-    duration:2,
-    delay:"-1"
-})
 .from("#arrow",{
     scale:0.1,
     duration:0.5
@@ -57,3 +51,14 @@ TL
     yoyo:"true",
     repeat:-1
 })
+
+let tlTwo = gsap.timeline();
+
+tlTwo
+.from("#portrait",{
+    opacity:0,
+    x:20,
+    duration:2,
+    delay:"0.5"
+});
+

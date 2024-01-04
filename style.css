@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.demo{
+    color: #fe4901c5;
+}
